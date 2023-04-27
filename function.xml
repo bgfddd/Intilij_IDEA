@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Adhoc" >
+    <!--<suite name="Adhoc">  if for single opening browser  -->
+    <test name="RegressionOfFirefox">
+        <parameter name="browsers" value="Firefox"></parameter>
+        <classes>
+        <!--    <class name="TestNG.Signout"></class>
+            <class name="TestNG.browserOpen"></class>   -->
+            <class name="TestNG.TestDataProvider"></class>
+
+        </classes>
+    </test>
+
+</suite>
